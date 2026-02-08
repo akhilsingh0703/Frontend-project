@@ -1,5 +1,21 @@
 {
-  "node": {},
+  "node": {
+    "407f273e1c0449aab838a29788fa788c90bcd56b26": {
+      "workers": {
+        "app/universities/[id]/page": {
+          "moduleId": 17875,
+          "async": false,
+          "exportedName": "summarizeUniversityDetails",
+          "filename": "src/ai/flows/summarize-university-details.ts"
+        }
+      },
+      "layer": {
+        "app/universities/[id]/page": "action-browser"
+      },
+      "filename": "src/ai/flows/summarize-university-details.ts",
+      "exportedName": "summarizeUniversityDetails"
+    }
+  },
   "edge": {},
-  "encryptionKey": "lLdUCC5+o4g1O0lpLVNwGfmTDGiQ+ngK3SObWYJL71w="
+  "encryptionKey": "RCfmWMzLJS2DiTQbhIT1HI8FqcdhOcsdwomxoi6PPvw="
 }

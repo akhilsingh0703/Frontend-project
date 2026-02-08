@@ -1,37 +1,20 @@
-const CHUNK_PUBLIC_PATH = "server/app/universities/[id]/page.js";
-const runtime = require("../../../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_0962b827._.js");
-runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__fb250061._.js");
-runtime.loadChunk("server/chunks/ssr/src_app_a4430781._.js");
-runtime.loadChunk("server/chunks/ssr/_858de3b8._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_96715ba7._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_ea7ea172.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_c8949b27.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_node-fetch_src_index_72ca2070.js");
-runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__f6a524de._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_76e098ce._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_zod_lib_36f2d6db._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_ajv_dist_e6327f72._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_47e238e3._.js");
-runtime.loadChunk("server/chunks/ssr/bf1d5_@opentelemetry_semantic-conventions_build_esm_f50c7e13._.js");
-runtime.loadChunk("server/chunks/ssr/4292a_@opentelemetry_semantic-conventions_build_esm_c6330d2a._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_b33ca58c._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@genkit-ai_ai_lib_cbf557c3._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_handlebars_dist_cjs_4c438708._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_yaml_dist_5cbea403._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_resources_build_esm_eadd61b9._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_sdk-metrics_build_esm_2bc910b7._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_sdk-trace-base_build_esm_ffb73884._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_protobufjs_837b9255._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_otlp-transformer_build_esm_7b4c78bd._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@grpc_grpc-js_c81782bd._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_thriftrw_872e9171._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@genkit-ai_google-genai_lib_bad0f99a._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_tr46_1a859af0._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_google-auth-library_0a3ca476._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_gaxios_7d64f839._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@opentelemetry_26c0981b._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_d141b22e._.js");
-runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/universities/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/summarize-university-details.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
-runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/universities/[id]/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico (static in ecmascript)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/src/app/universities/[id]/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/universities/[id]/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico (static in ecmascript)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/src/app/universities/[id]/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/universities/[id]/page.js")
+R.c("server/chunks/ssr/_7edf3242._.js")
+R.c("server/chunks/ssr/_6181ab91._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__5d5aaa26._.js")
+R.c("server/chunks/ssr/_76212b3a._.js")
+R.c("server/chunks/ssr/_dfd1fe6a._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a8f7fc2d._.js")
+R.c("server/chunks/ssr/node_modules_@opentelemetry_api_build_esm_9e986a62._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_f9713a08._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_174ae28d._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")
+R.c("server/chunks/ssr/src_58fd4e1d._.js")
+R.c("server/chunks/ssr/src_lib_utils_ts_493a4678._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_9774470f._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_45780354.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_15817684.js")
+R.c("server/chunks/ssr/[root-of-the-server]__04de45ba._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__d2fe9256._.js")
+R.m(86522)
+module.exports=R.m(86522).exports

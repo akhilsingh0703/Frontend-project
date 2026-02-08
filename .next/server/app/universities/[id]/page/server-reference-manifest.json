@@ -1,15 +1,19 @@
 {
   "node": {
-    "405b774457fb774b3ce3a45c1e0e56533ef76d7870": {
+    "407f273e1c0449aab838a29788fa788c90bcd56b26": {
       "workers": {
         "app/universities/[id]/page": {
-          "moduleId": "[project]/.next-internal/server/app/universities/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/summarize-university-details.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
+          "moduleId": 17875,
+          "async": false,
+          "exportedName": "summarizeUniversityDetails",
+          "filename": "src/ai/flows/summarize-university-details.ts"
         }
       },
       "layer": {
         "app/universities/[id]/page": "action-browser"
-      }
+      },
+      "exportedName": "summarizeUniversityDetails",
+      "filename": "src/ai/flows/summarize-university-details.ts"
     }
   },
   "edge": {}
