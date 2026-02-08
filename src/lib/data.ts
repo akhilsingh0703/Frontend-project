@@ -3,7 +3,7 @@
 import type { University } from './types';
 
 // API Configuration
-const API_BASE_URL = 'https://backend-unifriend-d17r.vercel.app/api/universities';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api/universities';
 
 // Helper to transform API data to University type
 const transformUniversity = (u: any): University => {
