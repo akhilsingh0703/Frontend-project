@@ -3,7 +3,7 @@
 import type { University } from './types';
 
 // API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api/universities';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // Helper to transform API data to University type
 const transformUniversity = (u: any): University => {
@@ -20,7 +20,7 @@ const transformUniversity = (u: any): University => {
 // Get all universities from Local Test Server
 export const getUniversities = async (): Promise<University[]> => {
   try {
-    const response = await fetch(API_BASE_URL);
+    const response = await fetch(`${API_BASE_URL}/universities`);
     if (!response.ok) {
       throw new Error(`Failed to fetch universities: ${response.statusText}`);
     }
@@ -37,7 +37,7 @@ export const getUniversities = async (): Promise<University[]> => {
 // or simpler, fetch all and find one. Improvements can be made to the test server later.
 export const getUniversityById = async (id: string): Promise<University | undefined> => {
   try {
-    const response = await fetch(API_BASE_URL);
+    const response = await fetch(`${API_BASE_URL}/universities`);
     if (!response.ok) {
       throw new Error(`Failed to fetch universities: ${response.statusText}`);
     }
