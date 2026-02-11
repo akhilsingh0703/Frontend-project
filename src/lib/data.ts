@@ -9,6 +9,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 const transformUniversity = (u: any): University => {
   return {
     ...u,
+    location: u.location || { city: 'Unknown', state: 'Unknown' },
     programs: u.programs || (u.courses ? u.courses.map((c: any) => ({
       name: c.name,
       department: c.category || 'General',
