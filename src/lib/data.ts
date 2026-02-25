@@ -22,7 +22,7 @@ const transformUniversity = (u: any): University => {
 export const getUniversities = async (): Promise<University[]> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/universities`, {
-      cache: 'no-store',
+      next: { revalidate: 60 }, // Revalidate data every 60 seconds (ISR)
     });
     if (!response.ok) {
       throw new Error(`Failed to fetch universities: ${response.statusText}`);
@@ -41,7 +41,7 @@ export const getUniversities = async (): Promise<University[]> => {
 export const getUniversityById = async (id: string): Promise<University | undefined> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/universities`, {
-      cache: 'no-store',
+      next: { revalidate: 60 }, // Revalidate data every 60 seconds (ISR)
     });
     if (!response.ok) {
       throw new Error(`Failed to fetch universities: ${response.statusText}`);
