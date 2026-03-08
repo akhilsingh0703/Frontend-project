@@ -28,7 +28,7 @@ export function UniversityCard({ university }: UniversityCardProps) {
         <Link href={`/universities/${university.id}`}>
           <div className="relative h-48 w-full">
             <Image
-              src={university.images?.banner || '/placeholder-university.jpg'}
+              src={university.images?.banner || 'https://via.placeholder.com/800x400'}
               alt={`${university.name} banner`}
               fill
               className="object-cover"
@@ -38,7 +38,7 @@ export function UniversityCard({ university }: UniversityCardProps) {
             <div className="absolute bottom-4 left-4 flex items-center gap-4">
               <div className="relative h-16 w-16 rounded-lg overflow-hidden border-2 border-background bg-background shadow-md">
                 <Image
-                  src={university.images?.logo || '/placeholder-logo.png'}
+                  src={university.images?.logo || 'https://via.placeholder.com/150'}
                   alt={`${university.name} logo`}
                   fill
                   className="object-contain p-1"

@@ -70,7 +70,7 @@ export default async function UniversityDetailPage({
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="relative h-24 w-24 md:h-32 md:w-32 rounded-lg overflow-hidden border-4 border-background bg-background shadow-lg shrink-0">
               <Image
-                src={university.images.logo}
+                src={university.images?.logo || 'https://via.placeholder.com/150'}
                 alt={`${university.name} logo`}
                 fill
                 className="object-contain p-2"
